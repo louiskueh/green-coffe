@@ -2485,14 +2485,14 @@ input, select, textarea {
 
 		dl.alt dt {
 			display: block;
-			width: 3em;
+			width: 12em;
 			margin: 0;
 			clear: left;
 			float: left;
 		}
 
 		dl.alt dd {
-			margin: 0 0 0.85em 5.5em;
+			margin: 0 0 0.85em 12.5em;
 		}
 
 		dl.alt:after {
@@ -2672,7 +2672,7 @@ input, select, textarea {
 			}
 
 				section.special header.major h2:after, article.special header.major h2:after {
-					margin-left: auto;
+					/* margin-left: auto; */
 					margin-right: auto;
 				}
 
@@ -2689,7 +2689,7 @@ input, select, textarea {
 				margin-left: auto;
 				margin-right: auto;
 			}
-
+	
 	footer.major {
 		margin-top: 3em;
 	}
@@ -3109,6 +3109,7 @@ input, select, textarea {
 		}
 
 			#header.alt h1 {
+				text-align: center;
 				font-size: 3.25em;
 			}
 
@@ -3174,8 +3175,10 @@ input, select, textarea {
 			}
 
 				#header p {
+					text-align: center;
 					font-size: 1em;
 					letter-spacing: 0;
+				
 				}
 
 					#header p br {
@@ -3186,9 +3189,10 @@ input, select, textarea {
 					padding: 4em 2em 1em 2em ;
 				}
 
-					#header.alt h1 {
-						font-size: 2.5em;
-					}
+				#header.alt h1 {
+					text-align: center;
+					font-size: 2.5em;
+				}
 
 		}
 
@@ -3720,7 +3724,7 @@ input, select, textarea {
 	}
 
 		#footer > * {
-			width: calc(50% - 2em);
+			width: calc(100% - 2em);
 			margin-left: 2em;
 		}
 
