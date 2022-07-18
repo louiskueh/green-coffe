@@ -2343,6 +2343,16 @@ input, select, textarea {
 
 		}
 
+	.images{
+		/* border-radius: 50%; */
+		background-size: cover;
+		background-position: center ;
+		width:7em;
+		height: auto;
+		margin-bottom: 2em;
+		/* border-radius: 50%; */
+	}
+
 	.center{
 		text-align: center;
 	}
