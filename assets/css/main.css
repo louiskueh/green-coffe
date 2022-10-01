@@ -3212,7 +3212,14 @@ table.alt tbody tr td {
 	margin-top: 6em;
 	width: 20em;
 }
-
+.image4 img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10%;
+	margin-top: 6em;
+	width: 30em;
+}
 
 @media screen and (max-width: 980px) {
 
