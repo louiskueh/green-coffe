@@ -3180,6 +3180,7 @@ table.alt tbody tr td {
 .spotlight .image {
 	display: inline-block;
 	margin-left: 4em;
+	margin-top: 5em;
 	padding: 0.65em;
 	border-radius: 100%;
 	/* border: solid 1px; */
