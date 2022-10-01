@@ -2578,6 +2578,13 @@ input[type="radio"]:focus+label:before {
 	margin-top: 1em;
 }
 
+.AEI{
+	width: 4rem;
+	height: auto;
+	margin-left: 3em;
+	margin-top: 1em;
+}
+
 /* List */
 
 ol {
@@ -3212,6 +3219,7 @@ table.alt tbody tr td {
 	margin-top: 6em;
 	width: 20em;
 }
+
 .image4 img {
 	display: block;
 	margin-left: auto;
@@ -4017,5 +4025,15 @@ body.is-preload #header.alt .logo {
 	#wrapper {
 		max-width: 100%;
 	}
+}
 
+details li {
+	text-align: left;
+}
+
+details {
+	text-align: left;
+	border:solid 1px;
+	padding: 10px;
+	border-radius: 8px;
 }
