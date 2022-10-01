@@ -4042,3 +4042,8 @@ details {
 .firstItem{
 	margin-top: 20px;
 }
+
+.alignLeft{
+	text-align: left;
+	margin-left: 2em; 
+}
