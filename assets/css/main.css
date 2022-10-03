@@ -2571,17 +2571,31 @@ input[type="radio"]:focus+label:before {
 	margin-top: 1em;
 }
 
+.ICTAN {
+	width: 15rem;
+	height: auto;
+	margin-top: 1em;
+	padding-left: 2em;
+}
+
+.CSIC {
+	width: 18rem;
+	height: auto;
+	margin-top: 1em;
+	padding-left: 2em;
+}
+
 .spanishGov {
 	width: 10rem;
 	height: auto;
-	margin-left: 3em;
+	margin-left: 2em;
 	margin-top: 1em;
 }
 
 .AEI{
 	width: 4rem;
 	height: auto;
-	margin-left: 3em;
+	margin-left: 2em;
 	margin-top: 1em;
 }
 
